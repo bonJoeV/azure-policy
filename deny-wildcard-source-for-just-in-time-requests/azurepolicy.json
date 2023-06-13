@@ -20,7 +20,7 @@
                             "equals": "Inbound"
                         }, {
                             "field": "Microsoft.Network/networkSecurityGroups/securityRules[*].name",
-                            "contains": "SecurityCenter-JITRule"
+                            "contains": "MicrosoftDefenderForCloud-JITRule"
                         }, {
                             "anyOf": [{
                                 "field": "Microsoft.Network/networkSecurityGroups/securityRules[*].destinationPortRange",
